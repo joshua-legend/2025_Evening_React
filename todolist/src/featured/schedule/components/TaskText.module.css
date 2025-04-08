@@ -1,0 +1,8 @@
+.task {
+  color: #5f6563;
+}
+
+.done {
+  color: #001f1519;
+  text-decoration: line-through;
+}

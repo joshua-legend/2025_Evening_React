@@ -1,11 +1,12 @@
-import { CurrentTime } from "../../shared/whatTime";
+import { CurrentTime } from "../../shared/util/whatTime";
 import styles from "./Calendar.module.css";
-import Text from "./components/Text";
+import TimeText from "./components/TimeText";
+
 const Calendar = () => {
   return (
     <div className={styles.layout}>
       {CurrentTime().map((v) => (
-        <Text text={v} />
+        <TimeText text={v} />
       ))}
     </div>
   );
