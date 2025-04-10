@@ -1,11 +1,12 @@
 import styles from "./Schedule.module.css";
-import TaskText from "./components/TaskText";
+import Task from "./components/Task";
 
 const Schedule = () => {
   return (
     <div className={styles.layout}>
-      <TaskText text={"꿀잠자기"} />
-      <TaskText text={"유튭보기"} isDone={true} />
+      <Task text={"유튜브보기"} />
+      <Task text={"복습하는척하면서 인스타보기"} />
+      <Task text={"각잡고 유튜브보기"} />
     </div>
   );
 };
