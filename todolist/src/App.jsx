@@ -7,7 +7,7 @@ function App() {
   return (
     <Layout>
       <Calendar />
-      <Schedule />
+      <Schedule taskList={["음악듣기", "넷플보기", "폭삭보기"]} />
       <input type="text" />
       <Button text={"+"} />
     </Layout>
