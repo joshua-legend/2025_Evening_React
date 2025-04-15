@@ -1,12 +1,6 @@
-# React + Vite
+리액트3 - 3일남음
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. 3일: 보충[props, state] + 프로젝트[혼자서 끝까지 투두리스트 만들기]
+2. 3일: 새로운거 배우기[타 라이브러리(여러페이지만들기, 애니메이션[슬라이드,motion])]
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+리액트4 - Next.js, Typescript, 프론트엔드 라이브러리
